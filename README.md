@@ -19,9 +19,9 @@ npx webpack-dev-server          // Compile and build to debug on brower.
 npx webpack                     // Build production package.
 
 ```
-While server is running, modify game code and save will trigger re-compiling and brower refresh.
+While server is running, editing and saving to trigger re-compiling and brower refresh.
 
 Press Ctrl + c to kill webpack-dev-server process.
 
-After build, game code locats in app.bundle.js and other common code in production-dependencies.bundle.js.
+In build package, game code locats in app.bundle.js and production-dependencies.bundle.js contains other common module.
 While server is running, if game code is modified, only app.bundle.js will be re-compiled.
